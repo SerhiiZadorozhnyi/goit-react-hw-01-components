@@ -24,10 +24,10 @@ const App = () => {
         views={user.stats.views}
         likes={user.stats.likes}
       />
-      <Statistics title="Upload stats" stats={statisticalData} />;
-      <Statistics stats={statisticalData} />;
-      <FriendList friends={friends} />,
-      <TransactionHistory transactions={transactions} />;
+      <Statistics title="Upload stats" stats={statisticalData} />
+      <Statistics stats={statisticalData} />
+      <FriendList friends={friends} />
+      <TransactionHistory transactions={transactions} />
     </div>
   );
 };

@@ -19,7 +19,7 @@ const Statistics = ({title, stats}) => (
 );
 
 function random() {
-  return Math.floor(Math.random() * 256);
+  return Math.floor(Math.random() * 256)
 }
 
 Statistics.defaultProps = {
