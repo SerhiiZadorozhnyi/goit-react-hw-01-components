@@ -23,12 +23,12 @@ function random() {
 }
 
 Statistics.defaultProps = {
-    title: ""
+  title: ""
 };
 
 Statistics.propTypes = {
-    title: PropTypes.string,
-    stats: PropTypes.array.isRequired
+  title: PropTypes.string,
+  stats: PropTypes.array.isRequired
 };
 
 

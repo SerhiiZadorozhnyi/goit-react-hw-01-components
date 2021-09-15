@@ -12,6 +12,7 @@ import friends from './components/FriendList/friends.json';
 import TransactionHistory from './components/Transactions/TransactionHistory';
 import transactions from './components/Transactions/transactions.json';
 
+
 const App = () => {
   return (
     <div>
@@ -31,5 +32,6 @@ const App = () => {
     </div>
   );
 };
+
 
 export default App;
